@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		181C1839229C3D9D00690D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C1838229C3D9D00690D64 /* AppDelegate.swift */; };
-		181C183B229C3D9D00690D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C183A229C3D9D00690D64 /* ViewController.swift */; };
+		181C183B229C3D9D00690D64 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C183A229C3D9D00690D64 /* HomeVC.swift */; };
 		181C183E229C3D9D00690D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C183C229C3D9D00690D64 /* Main.storyboard */; };
 		181C1840229C3D9E00690D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181C183F229C3D9E00690D64 /* Assets.xcassets */; };
 		181C1843229C3D9E00690D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C1841229C3D9E00690D64 /* LaunchScreen.storyboard */; };
+		181C184B229C525900690D64 /* HeroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C184A229C525900690D64 /* HeroVC.swift */; };
+		181C184D229C599200690D64 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C184C229C599200690D64 /* ForecastCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		181C1835229C3D9D00690D64 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C1838229C3D9D00690D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181C183A229C3D9D00690D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181C183A229C3D9D00690D64 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		181C183D229C3D9D00690D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181C183F229C3D9E00690D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181C1842229C3D9E00690D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181C1844229C3D9E00690D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181C184A229C525900690D64 /* HeroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroVC.swift; sourceTree = "<group>"; };
+		181C184C229C599200690D64 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				181C1838229C3D9D00690D64 /* AppDelegate.swift */,
-				181C183A229C3D9D00690D64 /* ViewController.swift */,
+				181C183A229C3D9D00690D64 /* HomeVC.swift */,
 				181C183C229C3D9D00690D64 /* Main.storyboard */,
 				181C183F229C3D9E00690D64 /* Assets.xcassets */,
 				181C1841229C3D9E00690D64 /* LaunchScreen.storyboard */,
 				181C1844229C3D9E00690D64 /* Info.plist */,
+				181C184A229C525900690D64 /* HeroVC.swift */,
+				181C184C229C599200690D64 /* ForecastCell.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181C183B229C3D9D00690D64 /* ViewController.swift in Sources */,
+				181C184D229C599200690D64 /* ForecastCell.swift in Sources */,
+				181C183B229C3D9D00690D64 /* HomeVC.swift in Sources */,
+				181C184B229C525900690D64 /* HeroVC.swift in Sources */,
 				181C1839229C3D9D00690D64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
